@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:compass",tag:{LodestoneTracked:1b}}}] run tellraw @s {"text":"Hello"}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:creeper_drop_music_discs"
+        },
+        {
+            "item": "minecraft:lime_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:music_disc_far",
+        "count": 1
+    },
+    "group": "record_dye"
+}
