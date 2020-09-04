@@ -12,5 +12,8 @@
             "item": "minecraft:charcoal"
         }
     },
-    "result": {}
+    "result": {
+        "item": "minecraft:blackstone",
+        "count": 2
+	}
 }
