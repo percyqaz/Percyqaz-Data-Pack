@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager, distance=..10] run function percyqaz:infvillager_helper
