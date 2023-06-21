@@ -1,12 +1,16 @@
 {
-    "type": "minecraft:smithing",
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:iron_ingot"
+    },
     "base": {
-        "item": "minecraft:chipped_anvil"
+      "item": "minecraft:chipped_anvil"
     },
     "addition": {
-        "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "result": {
-        "item": "minecraft:anvil"
+      "item": "minecraft:anvil"
     }
-}
+  }
+  

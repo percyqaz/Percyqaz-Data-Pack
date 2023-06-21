@@ -3,7 +3,7 @@ import subprocess
 import shutil
 import json
 
-VERSION = "1.19.3"
+VERSION = "1.20.1"
 ZIP = "C:/Program Files/7-Zip/7z.exe"
 MINECRAFT_LOC = os.getenv("APPDATA").replace("\\", "/") + "/.minecraft"
 MINECRAFT_JAR = "%s/versions/%s/%s.jar" % (MINECRAFT_LOC, VERSION, VERSION)
@@ -83,4 +83,6 @@ for feature_folder in [ f.path for f in os.scandir(CWD + "/features/") if f.is_d
         pack.feature_folder = feature  + "/"
         main(pack)
         
-print("!! complete!")
+print("!! complete! zipping ..")
+shutil.make_archive(CWD + "/percyqaz", 'zip', CWD + "/output/")
+input()
