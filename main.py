@@ -3,7 +3,7 @@ import subprocess
 import shutil
 import json
 
-VERSION = "1.20.1"
+VERSION = "1.21"
 ZIP = "C:/Program Files/7-Zip/7z.exe"
 MINECRAFT_LOC = os.getenv("APPDATA").replace("\\", "/") + "/.minecraft"
 MINECRAFT_JAR = "%s/versions/%s/%s.jar" % (MINECRAFT_LOC, VERSION, VERSION)

@@ -1,0 +1,1 @@
+"C:/Program Files/7-Zip/7z.exe" x "C:/Users/percy/AppData/Roaming/.minecraft/versions/1.21/1.21.jar" -r -o"C:/Users/percy/Desktop/Source/Percyqaz-Data-Pack/vanilla" data/*.*
